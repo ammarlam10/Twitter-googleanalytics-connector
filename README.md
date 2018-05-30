@@ -1,1 +1,1 @@
-# pegasus
+# Twitter and Google Analytics connector
