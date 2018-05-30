@@ -30,10 +30,6 @@ import httplib, urllib
 # response = connection.getresponse()
 # print response.status
 
-ACCESS_TOKEN = '2938008704-MC56VUUsmi0bcygq2UCXFjW2iAPYG9SmR51yTqb'
-ACCESS_SECRET = 'DhUPQNlxHrmNh9PF9RZzPcNesHTMHDXkUe6WLkPeok5se'
-CONSUMER_KEY = 'mzV9vDJq5EVgxKYSTE4Z5MYm6'
-CONSUMER_SECRET = 'k8RNCE6IhNvYb105NQ4oLgN6pXubjMaJgREpLEOfLdXaRNai0Z'
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
