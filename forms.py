@@ -18,10 +18,10 @@ import re
 import httplib, urllib
 
 
-ACCESS_TOKEN = '2938008704-MC56VUUsmi0bcygq2UCXFjW2iAPYG9SmR51yTqb'
-ACCESS_SECRET = 'DhUPQNlxHrmNh9PF9RZzPcNesHTMHDXkUe6WLkPeok5se'
-CONSUMER_KEY = 'mzV9vDJq5EVgxKYSTE4Z5MYm6'
-CONSUMER_SECRET = 'k8RNCE6IhNvYb105NQ4oLgN6pXubjMaJgREpLEOfLdXaRNai0Z'
+ACCESS_TOKEN = 'xxxx'
+ACCESS_SECRET = 'xxxx'
+CONSUMER_KEY = 'xxxx'
+CONSUMER_SECRET = 'xxxx'
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
@@ -32,7 +32,7 @@ api = tweepy.API(auth)
 DEBUG = True
 app = Flask(__name__)
 app.config.from_object(__name__)
-app.config['SECRET_KEY'] = '7d441f27d441f27567d441f2b6176a'
+app.config['SECRET_KEY'] = 'xxxx'
 
 
 class ReusableForm(Form):
@@ -53,10 +53,10 @@ def start():
 
 	
 
-	ACCESS_TOKEN = '2938008704-MC56VUUsmi0bcygq2UCXFjW2iAPYG9SmR51yTqb'
-	ACCESS_SECRET = 'DhUPQNlxHrmNh9PF9RZzPcNesHTMHDXkUe6WLkPeok5se'
-	CONSUMER_KEY = 'mzV9vDJq5EVgxKYSTE4Z5MYm6'
-	CONSUMER_SECRET = 'k8RNCE6IhNvYb105NQ4oLgN6pXubjMaJgREpLEOfLdXaRNai0Z'
+	ACCESS_TOKEN = 'xxxx'
+	ACCESS_SECRET = 'xxxx'
+	CONSUMER_KEY = 'xxxx'
+	CONSUMER_SECRET = 'xxxx'
 
 	auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 	auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
